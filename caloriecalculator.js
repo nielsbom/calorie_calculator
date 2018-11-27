@@ -1,3 +1,4 @@
+// Stuk tekst hier, zodat ik een pull request kan maken :-)
 // // Calculate age function
 // function calcAge (dob) {
 //   let diffMs = Date.now() - dob.getTime();
