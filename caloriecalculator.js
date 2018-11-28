@@ -51,6 +51,10 @@ function bodyStats (name, gender, height, weight, fatPercentage, avgTrainingTime
 
 // Invullen v.l.n.r.: Naam, male/female, lengte (in cm), gewicht (in kg), vetpercentage, gem. duur van training in min., activiteiten niveau: inactive, slightly active, moderately active, very active.
 
+// Wat me hier opvalt: je roept een functie aan en je doet niks met het resultaat.
+// (in de functie zet je wat globale variabelen, zie mn opmerkingen daar)
+// Als je pure functies gebruikt is het aanroepen van een functie en dan niks doen met wat de functie terugstuurt
+// een flinke "red flag" dat er iets vreemds is met deze function call.
 bodyStats( 'Sjoerd', 'male', 186, 88, 15, 75, 'moderately active');
 
 // Als je witregels (newlines in je output wil zou ik \n gebruiken.
